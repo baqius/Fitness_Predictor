@@ -54,8 +54,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ─── Model ────────────────────────────────────────────────────────────────────
-# Update this to the full path of your saved fitness_model.pkl
-MODEL_PATH = r"C:/Users/USER/Documents/WORLD QUANT PROJECT/MY PRACTICE/fitness_model.pkl"
+# ✅ After — works on any machine, any OS
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fitness_model.pkl")
 
 # These are the EXACT 10 features the model was trained on (from the dataset).
 
@@ -627,3 +627,4 @@ if st.button("🔍 Predict My Fitness", use_container_width=True, type="primary"
         "and does not constitute medical advice. Always consult a qualified healthcare professional "
         "before making significant changes to your diet, exercise programme, or lifestyle."
     )
+
