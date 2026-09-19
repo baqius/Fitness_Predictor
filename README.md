@@ -1,6 +1,7 @@
 # 🏋️ Fitness Predictor
 ### ML-Powered Personal Fitness Classification & Health Advisory System
 ---
+**Live Demo:** [https://baqiusfitnesspredictor.streamlit.app/](https://baqiusfitnesspredictor.streamlit.app/)
 
 ## Project Overview
 
